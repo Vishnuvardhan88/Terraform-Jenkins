@@ -18,7 +18,7 @@ pipeline {
 
                 script{
                     dir('Terraform') {
-                        git https://github.com/Vishnuvardhan88/Terraform-Jenkins.git
+                        git "https://github.com/Vishnuvardhan88/Terraform-Jenkins.git"
                     }
                 }
             }
