@@ -1,7 +1,7 @@
 pipeline {
     
     parameters{
-        booleanParam(name: 'autoApprove', default: False, description:'Automatically run after generating the plan?')
+        booleanParam(name: 'autoApprove', defaultValue: False, description:'Automatically run after generating the plan?')
     }
 
     environment{
